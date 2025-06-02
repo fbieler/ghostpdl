@@ -23,6 +23,7 @@
 #define ARCH_ALIGN_PTR_MOD                   @ARCH_ALIGN_PTR_MOD@
 #define ARCH_ALIGN_FLOAT_MOD                 @ARCH_ALIGN_FLOAT_MOD@
 #define ARCH_ALIGN_DOUBLE_MOD                @ARCH_ALIGN_DOUBLE_MOD@
+#define ARCH_ALIGN_UINT64_T_MOD              @ARCH_ALIGN_UINT64_T_MOD@
 
          /* ---------------- Scalar sizes ---------------- */
 

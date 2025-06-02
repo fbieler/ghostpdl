@@ -3834,6 +3834,7 @@ if test x"$build" != x"$host"; then
   AC_CHECK_ALIGNOF([void *])
   AC_CHECK_ALIGNOF([float])
   AC_CHECK_ALIGNOF([double])
+  AC_CHECK_ALIGNOF([uint64_t])
 
   AC_SUBST(ARCH_ALIGN_SHORT_MOD, $ac_cv_alignof_short)
   AC_SUBST(ARCH_ALIGN_INT_MOD, $ac_cv_alignof_int)
@@ -3842,6 +3843,7 @@ if test x"$build" != x"$host"; then
   AC_SUBST(ARCH_ALIGN_PTR_MOD, $ac_cv_alignof_void_p)
   AC_SUBST(ARCH_ALIGN_FLOAT_MOD, $ac_cv_alignof_float)
   AC_SUBST(ARCH_ALIGN_DOUBLE_MOD, $ac_cv_alignof_double)
+  AC_SUBST(ARCH_ALIGN_UINT64_T_MOD, $ac_cv_alignof_uint64_t)
 
   AC_CHECK_SIZEOF([char])
   AC_CHECK_SIZEOF([short])
